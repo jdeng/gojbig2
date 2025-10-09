@@ -1,0 +1,31 @@
+# Go build artifacts
+/jbig2jpg
+/create-test-jbig2
+cmd/jbig2jpg/jbig2jpg
+cmd/jbig2jpg/annex-h.jbig2
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+
+# Local caches & coverage
+.gocache/
+*.log
+coverage.*
+profile.out
+
+# Generated fixtures & extracted assets
+/extracted/
+/reference/
+testPDF_JBIG2.pdf
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

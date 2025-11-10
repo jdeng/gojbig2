@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"gojbig2/internal/jbig2"
+	"github.com/jdeng/gojbig2/internal/jbig2"
 )
 
 // Options configures JBIG2 decoding behavior.

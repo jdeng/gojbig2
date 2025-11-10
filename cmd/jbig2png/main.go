@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	jbig2 "gojbig2/pkg/jbig2"
+	jbig2 "github.com/jdeng/gojbig2/pkg/jbig2"
 )
 
 func main() {

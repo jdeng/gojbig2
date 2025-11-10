@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"gojbig2/internal/fax"
+	"github.com/jdeng/gojbig2/internal/fax"
 )
 
 // CodecStatus mirrors the FXCODEC_STATUS enum used by the reference decoder.
